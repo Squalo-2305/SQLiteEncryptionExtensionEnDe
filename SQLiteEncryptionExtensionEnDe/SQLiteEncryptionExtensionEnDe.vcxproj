@@ -135,11 +135,13 @@ xcopy /E /I /Y "$(ProjectDir)plugins" "$(TargetDir)plugins" &gt;nul</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="database_files.cpp" />
     <ClCompile Include="encrypt_decrypt.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="database_files.h" />
     <ClInclude Include="encrypt_decrypt.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>

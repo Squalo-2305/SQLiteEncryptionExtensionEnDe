@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="database_files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,6 +29,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="database_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="encrypt_decrypt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
